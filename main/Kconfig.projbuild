@@ -1,0 +1,15 @@
+menu "LED ESP-NOW example settings"
+
+config WIFI_SSID
+    string "Wi-Fi SSID"
+    default "YOUR_WIFI_SSID"
+    help
+        Name of the Wi-Fi network to connect to.
+
+config WIFI_PASSWORD
+    string "Wi-Fi password"
+    default "YOUR_WIFI_PASSWORD"
+    help
+        Password for the Wi-Fi network. Leave empty for an open network.
+
+endmenu
